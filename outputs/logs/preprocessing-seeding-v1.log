@@ -1,0 +1,33 @@
+2026-01-27 07:55:23,050 - INFO - Logging configured. Log file: /Users/dulminiguruge/Documents/GitHub/crop_stages_detection_2026/outputs/logs/preprocessing-seeding-v1.log
+2026-01-27 07:55:23,050 - INFO - Starting per-SoilType MinMax scaling & splitting.
+2026-01-27 07:55:23,054 - INFO - SoilType 'Black': total rows=349
+2026-01-27 07:55:23,056 - INFO -  → train=279 / test=70
+2026-01-27 07:55:23,057 - INFO -  → fitted MinMaxScaler for 'Black'
+2026-01-27 07:55:23,061 - INFO -  → saved scaler for 'Black' to /Users/dulminiguruge/Documents/GitHub/crop_stages_detection_2026/data/processed/scalers/minmax_scaler_Black_v1.pkl
+2026-01-27 07:55:23,061 - INFO - SoilType 'Brown': total rows=76
+2026-01-27 07:55:23,061 - INFO -  → train=60 / test=16
+2026-01-27 07:55:23,062 - INFO -  → fitted MinMaxScaler for 'Brown'
+2026-01-27 07:55:23,064 - INFO -  → saved scaler for 'Brown' to /Users/dulminiguruge/Documents/GitHub/crop_stages_detection_2026/data/processed/scalers/minmax_scaler_Brown_v1.pkl
+2026-01-27 07:55:23,064 - INFO - SoilType 'Dark Brown': total rows=185
+2026-01-27 07:55:23,065 - INFO -  → train=148 / test=37
+2026-01-27 07:55:23,066 - INFO -  → fitted MinMaxScaler for 'Dark Brown'
+2026-01-27 07:55:23,068 - INFO -  → saved scaler for 'Dark Brown' to /Users/dulminiguruge/Documents/GitHub/crop_stages_detection_2026/data/processed/scalers/minmax_scaler_Dark_Brown_v1.pkl
+2026-01-27 07:55:23,068 - INFO - SoilType 'Dark Gray': total rows=41
+2026-01-27 07:55:23,068 - INFO -  → train=32 / test=9
+2026-01-27 07:55:23,069 - INFO -  → fitted MinMaxScaler for 'Dark Gray'
+2026-01-27 07:55:23,071 - INFO -  → saved scaler for 'Dark Gray' to /Users/dulminiguruge/Documents/GitHub/crop_stages_detection_2026/data/processed/scalers/minmax_scaler_Dark_Gray_v1.pkl
+2026-01-27 07:55:23,071 - INFO - SoilType 'Gray': total rows=118
+2026-01-27 07:55:23,072 - INFO -  → train=94 / test=24
+2026-01-27 07:55:23,072 - INFO -  → fitted MinMaxScaler for 'Gray'
+2026-01-27 07:55:23,074 - INFO -  → saved scaler for 'Gray' to /Users/dulminiguruge/Documents/GitHub/crop_stages_detection_2026/data/processed/scalers/minmax_scaler_Gray_v1.pkl
+2026-01-27 07:55:23,074 - INFO - SoilType 'Moist Black': total rows=358
+2026-01-27 07:55:23,075 - INFO -  → train=286 / test=72
+2026-01-27 07:55:23,075 - INFO -  → fitted MinMaxScaler for 'Moist Black'
+2026-01-27 07:55:23,077 - INFO -  → saved scaler for 'Moist Black' to /Users/dulminiguruge/Documents/GitHub/crop_stages_detection_2026/data/processed/scalers/minmax_scaler_Moist_Black_v1.pkl
+2026-01-27 07:55:23,077 - INFO - SoilType 'Moist Dark Brown': total rows=100
+2026-01-27 07:55:23,078 - INFO -  → train=80 / test=20
+2026-01-27 07:55:23,078 - INFO -  → fitted MinMaxScaler for 'Moist Dark Brown'
+2026-01-27 07:55:23,080 - INFO -  → saved scaler for 'Moist Dark Brown' to /Users/dulminiguruge/Documents/GitHub/crop_stages_detection_2026/data/processed/scalers/minmax_scaler_Moist_Dark_Brown_v1.pkl
+2026-01-27 07:55:23,081 - INFO - All groups processed: train shape=(979, 13), test shape=(248, 13)
+2026-01-27 07:55:23,094 - INFO - Saved scaled training data to /Users/dulminiguruge/Documents/GitHub/crop_stages_detection_2026/data/processed/train_scaled_seeding_v1.csv
+2026-01-27 07:55:23,097 - INFO - Saved scaled test data to /Users/dulminiguruge/Documents/GitHub/crop_stages_detection_2026/data/processed/test_scaled_seeding_v1.csv
